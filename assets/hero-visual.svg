@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2033"/><stop offset=".55" stop-color="#0b2943"/><stop offset="1" stop-color="#06131f"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c2941"/><stop offset="1" stop-color="#04111c"/></linearGradient>
+    <radialGradient id="earthGlow"><stop offset="0" stop-color="#75c8ff" stop-opacity=".33"/><stop offset=".72" stop-color="#1d6fa7" stop-opacity=".10"/><stop offset="1" stop-color="#0b2033" stop-opacity="0"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#63b6ec" stroke-opacity=".08" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1600" height="520" fill="url(#sky)"/>
+  <rect width="1600" height="520" fill="url(#grid)" opacity=".35"/>
+  <circle cx="1250" cy="188" r="360" fill="url(#earthGlow)"/>
+  <g opacity=".95">
+    <circle cx="1260" cy="196" r="284" fill="#081928" stroke="#5ebcf1" stroke-opacity=".5" stroke-width="2"/>
+    <ellipse cx="1260" cy="196" rx="235" ry="284" fill="none" stroke="#5ebcf1" stroke-opacity=".28" stroke-width="1.2"/>
+    <ellipse cx="1260" cy="196" rx="120" ry="284" fill="none" stroke="#5ebcf1" stroke-opacity=".24" stroke-width="1.1"/>
+    <ellipse cx="1260" cy="196" rx="284" ry="225" fill="none" stroke="#5ebcf1" stroke-opacity=".22" stroke-width="1.1"/>
+    <ellipse cx="1260" cy="196" rx="284" ry="120" fill="none" stroke="#5ebcf1" stroke-opacity=".22" stroke-width="1.1"/>
+    <path d="M1060 40c65 32 102 60 129 102 19 30 11 58 35 82 22 22 56 20 82 49 20 22 22 55 45 73 27 21 55 15 91 42M1002 137c77-6 121 8 161 31 42 23 67 56 103 77 52 31 101 31 161 18M1040 306c75-28 143-26 204-7 54 16 93 45 151 51" fill="none" stroke="#7fd3ff" stroke-opacity=".35" stroke-width="1.4"/>
+    <g fill="#d9f2ff" filter="url(#glow)">
+      <circle cx="1138" cy="93" r="3"/><circle cx="1190" cy="132" r="2.5"/><circle cx="1246" cy="107" r="2.3"/><circle cx="1312" cy="161" r="3"/><circle cx="1362" cy="218" r="2.4"/><circle cx="1410" cy="274" r="2.8"/><circle cx="1196" cy="238" r="2.6"/><circle cx="1268" cy="272" r="2.2"/><circle cx="1338" cy="320" r="3"/><circle cx="1098" cy="214" r="2.6"/><circle cx="1460" cy="160" r="2.4"/><circle cx="1160" cy="350" r="2.5"/><circle cx="1276" cy="392" r="2.7"/>
+    </g>
+    <g stroke="#6bc2f5" stroke-opacity=".35"><path d="M1138 93L1190 132l56-25 66 54 50 57 48 56"/><path d="M1190 132l6 106 72 34 70 48 72-46"/><path d="M1098 214l98 24-36 112 116 42 62-72"/></g>
+  </g>
+  <g opacity=".98">
+    <rect x="0" y="350" width="1600" height="170" fill="url(#water)"/>
+    <g fill="#091a29" stroke="#1a405b" stroke-width="1">
+      <path d="M430 350V270h26v80zm37 0V240h34v110zm45 0V284h31v66zm41 0V220h44v130zm57 0V250h35v100zm46 0V190h36v160zm47 0V285h27v65zm38 0V238h31v112zm45 0V160h42v190zm55 0V205h33v145zm47 0V265h29v85zm42 0V230h40v120z"/>
+      <path d="M812 160h42l-7-20h-28z"/>
+      <rect x="830" y="108" width="5" height="52" fill="#153c58"/><rect x="831.5" y="58" width="2" height="50" fill="#6fbbe8"/>
+    </g>
+    <g fill="#f3c86a" filter="url(#glow)">
+      <rect x="444" y="293" width="4" height="7"/><rect x="475" y="255" width="5" height="8"/><rect x="488" y="278" width="4" height="6"/><rect x="566" y="244" width="5" height="8"/><rect x="621" y="286" width="4" height="7"/><rect x="659" y="221" width="5" height="7"/><rect x="781" y="198" width="5" height="7"/><rect x="839" y="184" width="5" height="8"/><rect x="886" y="236" width="5" height="7"/><rect x="936" y="282" width="4" height="6"/>
+    </g>
+    <g stroke="#82cfff" stroke-opacity=".17">
+      <path d="M0 382h980"/><path d="M0 416h920"/><path d="M0 458h870"/>
+    </g>
+    <g stroke="#f4c96b" stroke-opacity=".22"><path d="M448 350l-8 145"/><path d="M568 350l-18 160"/><path d="M660 350l-7 168"/><path d="M838 350l-20 165"/><path d="M888 350l10 154"/></g>
+  </g>
+  <rect width="1600" height="520" fill="url(#grid)" opacity=".08"/>
+</svg>
